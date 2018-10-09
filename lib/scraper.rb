@@ -25,6 +25,7 @@ class Scraper
     html = open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
     doc = Nokogiri::HTML(html)
    new_doc = doc.css(".h2").text 
+   binding.pry 
   end 
 end
 
