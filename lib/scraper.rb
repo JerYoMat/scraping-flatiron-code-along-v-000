@@ -17,7 +17,7 @@ class Scraper
   end
 
   def get_page
-    open('learn-co-curriculum.github.io/site-for-scraping/courses')
+    open("http://learn-co-curriculum.github.io/site-for-scraping/courses")
   end 
 end
 
